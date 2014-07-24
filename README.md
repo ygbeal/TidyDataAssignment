@@ -7,8 +7,8 @@ The goal is to have a tidy dataset which can be used for later analysis.
 
 1. Merges the training and the test sets to create one data set.
   - Read in the training data (X_train.txt, y_train.txt, and
+    subject_train.txt) with the read.table() function
   - With cbind function, combine the training data together
-	- subject_train.txt) with the read.table() function
 	- Read in the test data (X_test.txt, y_test.txt, subject_test.txt)
     with the read.table()	function
 	- With cbind function, combine the test data together
