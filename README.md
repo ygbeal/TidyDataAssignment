@@ -6,11 +6,11 @@ The goal is to have a tidy dataset which can be used for later analysis.
 **Here are the steps:**
 
 1. Merges the training and the test sets to create one data set.
-  - Read in the training data (X_train.txt, y_train.txt, and
+	- Read in the training data (X_train.txt, y_train.txt, and
     subject_train.txt) with the read.table() function
-  - With cbind function, combine the training data together
+	- With cbind function, combine the training data together
 	- Read in the test data (X_test.txt, y_test.txt, subject_test.txt)
-    with the read.table()	function
+    with the read.table() function
 	- With cbind function, combine the test data together
 	- With rbind() function, combine the training and test dataset
 
@@ -55,7 +55,7 @@ The goal is to have a tidy dataset which can be used for later analysis.
 **Output:**
 
 1. tidy_data.txt file will be stored in your working directory under the /data/CourseProject/ folder.
-2. The size of the final tidy dataset is 180 rows by 68 columns. Column 1 contain the subject, column 2 contain the type of activity (6), the rest of the columns contain the mean of various data collected.  
+2. The size of the final tidy dataset is 180 rows by 68 columns. Column 1 contain the subject, column 2 contain the type of activity (6), the rest of the columns contain the mean of various data collected and calculated.  
 		
 =================
 **R package required:**
