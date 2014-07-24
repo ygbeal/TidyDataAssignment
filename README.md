@@ -6,7 +6,7 @@ The goal is to have a tidy dataset which can be used for later analysis.
 Here are the steps:
 
 1. Merges the training and the test sets to create one data set.
-  * Read in the training data (X_train.txt, y_train.txt, and
+  	* Read in the training data (X_train.txt, y_train.txt, and
     subject_train.txt) with the read.table() function
 	* With cbind function, combine the training data together
 	* Read in the test data (X_test.txt, y_test.txt, subject_test.txt)
@@ -48,8 +48,8 @@ Input:
     
 2. link to the description -- http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
     
-3. Make sure that the data is stored in your working directory under the 
-    /data/CourseProject/ folder, otherwise adjust the path in the program.
+3. Make sure that the data is stored in your working directory under the /data/CourseProject/ folder, otherwise
+ adjust the path in the program.
   
 =================
 Output:
