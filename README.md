@@ -55,6 +55,7 @@ The goal is to have a tidy dataset which can be used for later analysis.
 **Output:**
 
 1. tidy_data.txt file will be stored in your working directory under the /data/CourseProject/ folder.
+2. The size of the final tidy dataset is 180 rows by 68 columns. Column 1 contain the subject, column 2 contain the type of activity (6), the rest of the columns contain the mean of various data collected.  
 		
 =================
 **R package required:**
